@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    flex-direction:column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient( rgb(65,77,90),rgb(120,77,90));
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.button{
+    height:40vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width:300px;
+
+}
+.screen{
+    height:70px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    text-align: right;
+    font-size: 20px;
+}
+.btn{
+    font-size:20px;
+    font-weight:bold;
+    margin: 5px;
+    padding: 3px;
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    color:blue;
+    text-align: center;
+    cursor: pointer;
+
+}
+.btn-equal,.clear-equal{
+    font-size:20px;
+    font-weight:bold;
+    margin: 5px;
+    padding: 3px;
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: green;
+}
+
